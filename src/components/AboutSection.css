@@ -1,0 +1,41 @@
+.about {
+  background-color: #0a0e1a;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about__video-wrapper {
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid rgba(100, 120, 160, 0.3);
+}
+
+.about__video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  min-height: 400px;
+  max-height: 550px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 40px 20px;
+  }
+
+  .about__video {
+    min-height: 250px;
+  }
+}
