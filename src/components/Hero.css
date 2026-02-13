@@ -35,7 +35,7 @@
 }
 
 .hero__center-logo {
-  width: 280px;
+  width: 420px;
   height: auto;
   object-fit: contain;
   filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.5));
@@ -43,7 +43,7 @@
 
 @media (max-width: 768px) {
   .hero__center-logo {
-    width: 200px;
+    width: 300px;
   }
 }
 

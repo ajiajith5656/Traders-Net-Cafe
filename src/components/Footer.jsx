@@ -23,7 +23,7 @@ const Footer = () => {
 
           <div className="footer__contact-item">
             <span className="footer__label">LOCATION</span>
-            <p>Practice Hub – Prism Tower,<br />Business Bay, Dubai, UAE</p>
+            <p>Traders Net Cafe<br />AL KAZIM BUILDING 2nd floor 213 Block A<br />Al Ittihad Road, Dubai</p>
           </div>
 
           <div className="footer__contact-item">
