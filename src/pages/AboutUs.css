@@ -15,6 +15,26 @@
   min-height: 100vh;
 }
 
+.aboutus-desc__heading,
+.aboutus-vm__heading,
+.aboutus-message__title {
+  font-family: 'Prata', serif;
+  font-size: 36px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.aboutus-desc__text,
+.aboutus-vm__block p,
+.aboutus-message__quote {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+}
+
 /* --- About Description --- */
 .aboutus-desc {
   padding: 120px 60px 40px;
@@ -23,11 +43,7 @@
 }
 
 .aboutus-desc__heading {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 42px;
-  font-weight: 700;
-  color: #d4a054;
-  letter-spacing: 4px;
+  font-weight: 400;
   margin: 0 0 40px;
 }
 
@@ -36,9 +52,6 @@
 }
 
 .aboutus-desc__text {
-  font-size: 15px;
-  line-height: 1.9;
-  color: #ccc;
   margin-bottom: 20px;
   text-align: justify;
 }
@@ -83,20 +96,12 @@
 }
 
 .aboutus-vm__heading {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 28px;
-  font-weight: 700;
-  color: #d4a054;
-  letter-spacing: 3px;
+  font-weight: 400;
   margin-bottom: 20px;
   margin-top: 0;
 }
 
 .aboutus-vm__block p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  line-height: 1.8;
-  color: #ccc;
   margin: 0;
   text-align: justify;
 }
@@ -121,12 +126,8 @@
 }
 
 .aboutus-message__title {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 32px;
-  font-weight: 700;
-  color: #d4a054;
+  font-weight: 400;
   text-align: center;
-  letter-spacing: 3px;
   margin-bottom: 40px;
   margin-top: 0;
 }
@@ -151,12 +152,8 @@
 }
 
 .aboutus-message__quote {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  line-height: 1.9;
-  color: #ccc;
   text-align: center;
-  font-style: italic;
+  font-style: normal;
   margin: 0;
 }
 
@@ -173,8 +170,12 @@
 
 @media (max-width: 768px) {
   .aboutus-desc__heading {
-    font-size: 32px;
-    letter-spacing: 3px;
+    font-size: 28px;
+  }
+
+  .aboutus-vm__heading,
+  .aboutus-message__title {
+    font-size: 28px;
   }
 
   .aboutus-desc,
@@ -193,7 +194,7 @@
   }
 
   .aboutus-message__title {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .aboutus-message__photo {
@@ -202,7 +203,7 @@
   }
 
   .aboutus-message__quote {
-    font-size: 14px;
+    font-size: 16px;
   }
 
 }

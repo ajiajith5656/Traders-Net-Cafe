@@ -109,26 +109,29 @@
 
 .services-card h2,
 .services-card h3 {
-  font-family: 'Georgia', 'Times New Roman', serif;
+  font-family: 'Prata', serif;
   margin: 0 0 14px;
-  color: #d4a054;
-  letter-spacing: 2px;
+  color: #fff;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .services-card h2 {
-  font-size: 32px;
+  font-size: 36px;
 }
 
 .services-card h3 {
-  font-size: 28px;
+  font-size: 36px;
 }
 
 .services-card p {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  line-height: 1.9;
-  color: #ccc;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
 }
 
 .services-card--pill {
@@ -176,11 +179,11 @@
   }
 
   .services-card h2 {
-    font-size: 24px;
+    font-size: 36px;
   }
 
   .services-card h3 {
-    font-size: 24px;
+    font-size: 36px;
   }
 }
 
@@ -203,7 +206,12 @@
   }
 
   .services-card p {
-    font-size: 14px;
-    line-height: 1.75;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .services-card h2,
+  .services-card h3 {
+    font-size: 28px;
   }
 }
