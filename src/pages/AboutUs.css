@@ -160,35 +160,6 @@
   margin: 0;
 }
 
-/* --- Brand Partners --- */
-.aboutus-partners {
-  padding: 60px 60px;
-  text-align: center;
-}
-
-.aboutus-partners__title {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 32px;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 40px;
-  margin-top: 0;
-}
-
-.aboutus-partners__logos {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.aboutus-partners__logo {
-  width: 70px;
-  height: 70px;
-  background: linear-gradient(135deg, #1a6fb5 0%, #2a8fd4 100%);
-  border-radius: 50%;
-}
-
 /* --- Responsive --- */
 @media (max-width: 992px) {
   .aboutus-vm__container {
@@ -208,8 +179,7 @@
 
   .aboutus-desc,
   .aboutus-vm,
-  .aboutus-team,
-  .aboutus-partners {
+  .aboutus-team {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -235,8 +205,4 @@
     font-size: 14px;
   }
 
-  .aboutus-partners__logo {
-    width: 55px;
-    height: 55px;
-  }
 }

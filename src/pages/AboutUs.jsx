@@ -81,18 +81,6 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Brand Partners */}
-      <section className="aboutus-partners">
-        <h2 className="aboutus-partners__title">Our Brand Partners</h2>
-        <div className="aboutus-partners__logos">
-          <div className="aboutus-partners__logo"></div>
-          <div className="aboutus-partners__logo"></div>
-          <div className="aboutus-partners__logo"></div>
-          <div className="aboutus-partners__logo"></div>
-          <div className="aboutus-partners__logo"></div>
-          <div className="aboutus-partners__logo"></div>
-        </div>
-      </section>
     </div>
   );
 };

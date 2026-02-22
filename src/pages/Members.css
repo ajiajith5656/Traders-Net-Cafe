@@ -1,0 +1,9 @@
+.members-page {
+  margin-top: 56px;
+}
+
+@media (max-width: 768px) {
+  .members-page {
+    margin-top: 52px;
+  }
+}

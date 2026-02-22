@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const LOGO_URL = 'https://res.cloudinary.com/ditsmq3r6/image/upload/v1770831300/TRADERS_CAFE.pdf_fzwa4b_e_background_removal_f_png_rfytef.png';
@@ -43,7 +44,8 @@ const Footer = () => {
           <ul className="footer__nav">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
-            <li><a href="#members">Membership</a></li>
+            <li><Link to="/services">Our Services</Link></li>
+            <li><Link to="/members">Membership</Link></li>
           </ul>
         </div>
 
