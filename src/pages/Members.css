@@ -119,13 +119,26 @@
 
 .mem-section-title {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 36px;
+  font-family: 'DM Serif Display', serif;
+  font-size: 44px;
+  font-weight: 400;
   margin-bottom: 70px;
 }
 
-.mem-section-title span {
+.mem-title-white {
+  color: #ffffff;
+}
+
+.mem-title-green {
   color: #00e676;
+}
+
+.mem-title-gold {
+  color: #d4a017;
+}
+
+.mem-section-title span {
+  color: inherit;
 }
 
 .mem-pricing-grid {

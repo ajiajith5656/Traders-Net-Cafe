@@ -39,7 +39,9 @@ const Members = () => {
           </div>
 
           <h2 className="mem-section-title">
-            Monthly <span>Membership Plans</span>
+            <span className="mem-title-white">Monthly</span>{" "}
+            <span className="mem-title-green">Membership</span>{" "}
+            <span className="mem-title-gold">Plans</span>
           </h2>
 
           <div className="mem-pricing-grid">
