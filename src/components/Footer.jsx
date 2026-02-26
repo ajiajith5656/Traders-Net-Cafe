@@ -14,7 +14,7 @@ const Footer = () => {
             <img src={LOGO_URL} alt="Traders Net Café" className="footer__logo-img" />
           </div>
           <p className="footer__description">
-            A dedicated space to connect as a community, practice with purpose, and evolve as confident traders.
+            A dedicated space to connect as a community, practice with purpose, and evolve with confidence.
           </p>
         </div>
 
@@ -23,18 +23,26 @@ const Footer = () => {
           <h3 className="footer__heading">CONTACT</h3>
 
           <div className="footer__contact-item">
-            <span className="footer__label">LOCATION</span>
-            <p>Traders Net Cafe<br />AL KAZIM BUILDING 2nd floor 213 Block A<br />Al Ittihad Road, Dubai</p>
+            <p>
+              <span className="footer__icon" aria-hidden="true">📍</span>
+              TEADERS NET CAFE SFZ LLC
+              <br />
+              207, B Block, Al Kazim Building, Hor Al Anz, Dubai.
+            </p>
           </div>
 
           <div className="footer__contact-item">
-            <span className="footer__label">PHONE</span>
-            <p><a href="tel:+971504161426">+971 504161426</a></p>
+            <p>
+              <span className="footer__icon" aria-hidden="true">📞</span>
+              <a href="tel:+97145757420">+971 45757420</a>
+            </p>
           </div>
 
           <div className="footer__contact-item">
-            <span className="footer__label">EMAIL</span>
-            <p><a href="mailto:tradersnetcafe@gmail.com">tradersnetcafe@gmail.com</a></p>
+            <p>
+              <span className="footer__icon" aria-hidden="true">✉️</span>
+              <a href="mailto:tradersnetcafe@gmail.com">tradersnetcafe@gmail.com</a>
+            </p>
           </div>
         </div>
 

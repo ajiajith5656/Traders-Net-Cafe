@@ -1,0 +1,79 @@
+.home-about-intro {
+  background: linear-gradient(170deg,
+    #1a1408 0%,
+    #2c1f0e 15%,
+    #3a2a12 30%,
+    #4a3518 45%,
+    #3a2a12 60%,
+    #1a1408 80%,
+    #0a0e1a 100%);
+  color: #fff;
+  padding: 72px 40px 48px;
+}
+
+.home-about-intro__container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.home-about-intro__title {
+  margin: 0 0 28px;
+  font-family: 'TAN MON CHERI';
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.home-about-intro__text {
+  margin: 0 0 16px;
+  max-width: 980px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.85;
+  color: #fff;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.home-about-intro__text--first {
+  margin-bottom: 22px;
+}
+
+.home-about-intro__cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  background: #1a6fb5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+  transition: background 0.25s ease;
+}
+
+.home-about-intro__cta:hover {
+  background: #2a8fd4;
+}
+
+@media (max-width: 768px) {
+  .home-about-intro {
+    padding: 48px 20px 28px;
+  }
+
+  .home-about-intro__title {
+    font-size: 27px;
+  }
+
+  .home-about-intro__text,
+  .home-about-intro__cta {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+}

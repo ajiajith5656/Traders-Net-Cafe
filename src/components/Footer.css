@@ -73,6 +73,12 @@
   color: #ccc;
 }
 
+.footer__icon {
+  display: inline-block;
+  width: 20px;
+  margin-right: 8px;
+}
+
 .footer__contact-item a {
   color: #ccc;
   text-decoration: none;
@@ -136,7 +142,7 @@
 
 .footer__social-link:hover {
   border-color: #d4a054;
-  color: #d4a054;
+  color: #ce9541;
 }
 
 /* Bottom Bar */
