@@ -19,7 +19,7 @@
 
 .mem-hero {
   position: relative;
-  height: 800px;
+  height: 700px;
   margin-top: 56px; /* push below fixed navbar */
   display: flex;
   align-items: flex-end;
@@ -40,7 +40,7 @@
 .mem-hero__bottom {
   position: relative;
   z-index: 2;
-  padding: 0 60px 50px;
+  padding: 0 20px 50px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -48,7 +48,7 @@
 
 .mem-hero__heading {
   font-family: 'DM Serif Display', serif;
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 500;
   color: #fdfcf8;
   line-height: 1.1;
@@ -57,7 +57,7 @@
 
 .mem-hero__subtitle {
   font-family: 'Poppins', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 300;
   color: #e39a08;
   letter-spacing: 0.5px;
@@ -125,16 +125,16 @@
   margin-bottom: 70px;
 }
 
-.mem-title-white {
-  color: #ffffff;
+.mem-section-title .mem-title-white {
+  color: #ffffff !important;
 }
 
-.mem-title-green {
-  color: #00e676;
+.mem-section-title .mem-title-green {
+  color: #00e676 !important;
 }
 
-.mem-title-gold {
-  color: #d4a017;
+.mem-section-title .mem-title-gold {
+  color: #d4a017 !important;
 }
 
 .mem-section-title span {
@@ -144,27 +144,32 @@
 .mem-pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 10px;
+  margin: 0 10px;
 }
 
 .mem-card {
-  background: linear-gradient(180deg, #0d1b2a 0%, #0a2e3d 100%);
-  padding: 35px 25px;
-  border-radius: 20px;
+  background: linear-gradient(180deg, #132a3e 0%, #154050 50%, #1a5060 100%);
+  border-radius: 18px;
   text-align: center;
   transition: 0.4s ease;
-  border: 1px solid rgba(0,198,255,0.15);
+  border: 1px solid rgba(0,198,255,0.2);
   box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
 }
 
 .mem-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0,198,255,0.2);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0,198,255,0.15);
 }
 
 .mem-icon {
-  width: 60px;
-  height: 60px;
+  width: 56px;
+  height: 56px;
   margin: 0 auto 20px;
   border-radius: 50%;
   display: flex;
@@ -173,41 +178,41 @@
 }
 
 .mem-icon--green {
-  background: rgba(0,230,118,0.15);
-  color: #00e676;
+  background: #f5c518;
+  color: #1a1a1a;
 }
 
 .mem-icon--orange {
-  background: rgba(255,109,0,0.15);
-  color: #ff6d00;
-}
-
-.mem-icon--blue {
-  background: rgba(0,198,255,0.15);
-  color: #00c6ff;
+  background: #e64a19;
+  color: #1a1a1a;
 }
 
 .mem-card h3 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 22px;
-  margin-bottom: 4px;
+  font-family: 'DM Serif Display', serif;
+  font-size: 28px;
+  margin-bottom: 6px;
   color: #fff;
+  font-weight: 400;
 }
 
 .mem-card h3 strong {
-  font-size: 32px;
   font-weight: 700;
 }
 
 .mem-price-sub {
-  color: #b0bec5;
-  font-size: 14px;
+  font-family: 'DM Serif Display', serif;
+  color: #00e676;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .mem-dedicated {
-  font-size: 18px;
-  line-height: 1.5;
+  font-family: 'DM Serif Display', serif;
+  font-size: 22px;
+  line-height: 1.4;
   font-style: italic;
+  font-weight: 400;
+  color: #fff;
 }
 
 .mem-dedicated span {
@@ -259,6 +264,11 @@
   .mem-pricing-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .mem-card {
+    aspect-ratio: auto;
+    padding: 30px 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -296,6 +306,11 @@
 
   .mem-pricing-grid {
     grid-template-columns: 1fr;
+  }
+
+  .mem-card {
+    aspect-ratio: auto;
+    padding: 30px 20px;
   }
 
   .mem-included-grid {

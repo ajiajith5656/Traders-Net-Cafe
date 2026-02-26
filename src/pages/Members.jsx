@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Crown, Flame, ShieldCheck } from "lucide-react";
+import { Crown, Flame } from "lucide-react";
 import "./Members.css";
 
 const Members = () => {
@@ -51,7 +51,7 @@ const Members = () => {
               <div className="mem-icon mem-icon--green">
                 <Crown size={28} />
               </div>
-              <h3>AED <strong>499</strong> /</h3>
+              <h3>AED <strong>499/-</strong></h3>
               <p className="mem-price-sub">Month (Basic)</p>
             </div>
 
@@ -60,15 +60,12 @@ const Members = () => {
               <div className="mem-icon mem-icon--orange">
                 <Flame size={28} />
               </div>
-              <h3>AED <strong>799</strong> /</h3>
+              <h3>AED <strong>799/-</strong></h3>
               <p className="mem-price-sub">Month (Advanced)</p>
             </div>
 
             {/* DEDICATED */}
             <div className="mem-card">
-              <div className="mem-icon mem-icon--blue">
-                <ShieldCheck size={28} />
-              </div>
               <h3 className="mem-dedicated">
                 Affordable solutions for <span>dedicated market players.</span>
               </h3>
