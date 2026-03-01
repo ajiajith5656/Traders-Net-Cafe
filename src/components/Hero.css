@@ -113,38 +113,12 @@
   margin: 0;
 }
 
-.hero__scroll {
-  position: absolute;
-  bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.hero__scroll-text {
-  color: #ccc;
-  font-size: 12px;
-  letter-spacing: 6px;
-  font-weight: 400;
-}
-
-.hero__scroll-line {
-  width: 1px;
-  height: 50px;
-  background: #ccc;
-  animation: scrollPulse 2s ease-in-out infinite;
-}
-
-@keyframes scrollPulse {
-  0%, 100% { opacity: 0.3; }
-  50% { opacity: 1; }
-}
-
 @media (max-width: 768px) {
   .hero {
     min-height: calc(100svh - 52px);
-    background-position: 50% 28%;
+    background-size: contain;
+    background-position: center;
+    background-color: #110f14;
   }
 
   .hero__logo-card {

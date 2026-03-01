@@ -9,10 +9,6 @@ const Hero = () => {
       <div className="hero__overlay"></div>
       <div className="hero__content">
         <img src={LOGO_URL} alt="Traders Net Café" className="hero__center-logo" />
-        <div className="hero__scroll">
-          <span className="hero__scroll-text">SCROLL</span>
-          <div className="hero__scroll-line"></div>
-        </div>
       </div>
     </section>
   );
