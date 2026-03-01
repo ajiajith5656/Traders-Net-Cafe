@@ -78,7 +78,10 @@ const Members = () => {
       {/* INCLUDED */}
       <section className="mem-included">
         <div className="mem-container">
-          <h2 className="mem-section-title mem-section-title--white">What's Included:</h2>
+          <h2 className="mem-section-title mem-section-title--white mem-included__title">
+            <span className="mem-title-white">What's </span>
+            <span className="mem-title-gold">Included:</span>
+          </h2>
 
           <div className="mem-included-grid">
 
@@ -91,7 +94,7 @@ const Members = () => {
               <li>Live market walkthroughs</li>
               <li>Real-Time Edge</li>
               <li>Mentor-led live observations</li>
-              <li>Mistake breakdown sessions</li>
+              <li>Mistake breakdown sessions (learning from losses)</li>
               <li>Community & Support</li>
             </ul>
 
@@ -99,9 +102,9 @@ const Members = () => {
               <li>Members-only discussion group</li>
               <li>Peer learning & idea sharing</li>
               <li>Weekly Q&A / doubt clearing</li>
-              <li>Growth tracking</li>
+              <li>Growth Tracking</li>
               <li>Personal progress tracking</li>
-              <li>Trade review sessions</li>
+              <li>Trade review feedback</li>
               <li>Monthly performance check-ins</li>
               <li>Improvement roadmap</li>
               <li>Guest sessions / expert talks</li>
