@@ -25,7 +25,7 @@ const AboutUs = () => {
         {/* Single Image */}
         <div className="aboutus-banner">
           <img
-            src="https://res.cloudinary.com/ditsmq3r6/image/upload/v1770836569/djaskljf.jpg_pppos1.jpg"
+            src="/images/about.png"
             alt="Traders Net Café community"
             className="aboutus-banner__img"
           />
@@ -52,32 +52,6 @@ const AboutUs = () => {
           <div className="aboutus-vm__right">
             <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&q=80" alt="Our Vision & Mission" />
           </div>
-        </div>
-      </section>
-
-      {/* Message from Vision Investor */}
-      <section className="aboutus-message">
-        <h2 className="aboutus-message__title">Message from Our Vision Investor</h2>
-        <div className="aboutus-message__content">
-          <div className="aboutus-message__image">
-            <div className="aboutus-message__photo"></div>
-          </div>
-          <p className="aboutus-message__quote">
-            "As a Vision Investor, I believe in supporting ideas that have the power to shape the future. Our commitment goes beyond capital — it's about nurturing innovation, fostering growth, and walking alongside the team as they turn vision into reality. Together, we're not just investing in a company; we're investing in a purpose, a mission, and a lasting impact. I'm proud to be part of this journey and excited for what lies ahead."
-          </p>
-        </div>
-      </section>
-
-      {/* Message from Founder */}
-      <section className="aboutus-message">
-        <h2 className="aboutus-message__title">Message from Founder</h2>
-        <div className="aboutus-message__content">
-          <div className="aboutus-message__image">
-            <div className="aboutus-message__photo"></div>
-          </div>
-          <p className="aboutus-message__quote">
-            "Welcome to TradersNet Cafe! When I started this space, my vision was to create more than just a place to learn — I wanted a community where curious minds could come together, share knowledge, and grow together. Here, you can explore new ideas, practice strategies in a real market environment, and learn from both experts and peers. Our goal is to provide the tools, guidance, and support you need to build confidence and take thoughtful steps every day. I'm truly excited to have you as part of this journey, and I can't wait to see what we can achieve together."
-          </p>
         </div>
       </section>
 

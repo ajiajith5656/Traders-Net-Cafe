@@ -16,22 +16,20 @@
 }
 
 .aboutus-desc__heading,
-.aboutus-vm__heading,
-.aboutus-message__title {
-  font-family: 'Prata', serif;
-  font-size: 36px;
+.aboutus-vm__heading {
+  font-family: 'TAN MON CHERI';
+  font-size: 34px;
   line-height: 1.2;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.12em;
   color: #fff;
 }
 
 .aboutus-desc__text,
-.aboutus-vm__block p,
-.aboutus-message__quote {
-  font-family: 'Red Hat Display', sans-serif;
+.aboutus-vm__block p {
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.85;
   color: #fff;
 }
 
@@ -120,43 +118,6 @@
   display: block;
 }
 
-/* --- Message Sections --- */
-.aboutus-message {
-  padding: 70px 60px;
-}
-
-.aboutus-message__title {
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 40px;
-  margin-top: 0;
-}
-
-.aboutus-message__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.aboutus-message__image {
-  margin-bottom: 30px;
-}
-
-.aboutus-message__photo {
-  width: 280px;
-  height: 280px;
-  background: linear-gradient(135deg, #1a6fb5 0%, #2a8fd4 100%);
-  border-radius: 12px;
-}
-
-.aboutus-message__quote {
-  text-align: center;
-  font-style: normal;
-  margin: 0;
-}
-
 /* --- Responsive --- */
 @media (max-width: 992px) {
   .aboutus-vm__container {
@@ -170,12 +131,17 @@
 
 @media (max-width: 768px) {
   .aboutus-desc__heading {
-    font-size: 28px;
+    font-size: 27px;
   }
 
-  .aboutus-vm__heading,
-  .aboutus-message__title {
-    font-size: 28px;
+  .aboutus-vm__heading {
+    font-size: 27px;
+  }
+
+  .aboutus-desc__text,
+  .aboutus-vm__block p {
+    font-size: 15px;
+    line-height: 1.75;
   }
 
   .aboutus-desc,
@@ -185,25 +151,20 @@
     padding-right: 20px;
   }
 
+  .aboutus-desc {
+    padding-bottom: 16px;
+  }
+
+  .aboutus-banner {
+    margin-bottom: 0;
+  }
+
+  .aboutus-vm {
+    padding-top: 16px;
+  }
+
   .aboutus-banner__img {
-    height: 300px;
-  }
-
-  .aboutus-message {
-    padding: 50px 20px;
-  }
-
-  .aboutus-message__title {
-    font-size: 28px;
-  }
-
-  .aboutus-message__photo {
-    width: 220px;
-    height: 220px;
-  }
-
-  .aboutus-message__quote {
-    font-size: 16px;
+    height: auto;
   }
 
 }
