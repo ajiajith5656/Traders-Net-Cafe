@@ -19,6 +19,7 @@
 .services-hero {
   margin-top: 56px;
   min-height: calc(100vh - 56px);
+  min-height: calc(100svh - 56px);
   background-image: url('/images/service.png');
   background-size: cover;
   background-position: center;
@@ -190,6 +191,8 @@
 @media (max-width: 768px) {
   .services-hero {
     margin-top: 52px;
+    min-height: calc(100svh - 52px);
+    background-position: 50% 22%;
   }
 }
 

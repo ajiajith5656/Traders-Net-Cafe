@@ -19,7 +19,7 @@
 
 .mem-hero {
   position: relative;
-  height: 700px;
+  min-height: 700px;
   margin-top: 56px; /* push below fixed navbar */
   display: flex;
   align-items: flex-end;
@@ -154,12 +154,12 @@
   text-align: center;
   transition: 0.4s ease;
   border: 1px solid rgba(0,198,255,0.2);
-  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  box-shadow: 5px 8px 30px rgba(0,0,0,0.3);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 30px 20px;
+  padding: 30px 10px;
 }
 
 .mem-card:hover {
@@ -239,8 +239,8 @@
 
 .mem-included ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 20;
+  padding: 20;
 }
 
 .mem-included li {
@@ -253,7 +253,7 @@
 .mem-included li::before {
   content: "\2713";
   position: absolute;
-  left: 0;
+  left: 19;
   color: #00e676;
   font-weight: bold;
 }
@@ -273,7 +273,16 @@
 
 @media (max-width: 768px) {
   .mem-hero {
-    height: 900px;
+    min-height: calc(100svh - 52px);
+    background-position: 50% 20%;
+  }
+
+  .mem-pricing {
+    background-position: 50% 40%;
+  }
+
+  .mem-included {
+    background-position: 50% 24%;
   }
 
   .mem-hero__bottom {
@@ -320,7 +329,8 @@
 
 @media (max-width: 480px) {
   .mem-hero {
-    height: 900px;
+    min-height: calc(100svh - 52px);
+    background-position: 50% 18%;
   }
 
   .mem-hero__bottom {
